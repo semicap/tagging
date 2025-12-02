@@ -1,0 +1,96 @@
+# labels.py
+
+class Labels:
+    revenuel = [
+        'RevenueFromContractWithCustomerExcludingAssessedTax',
+        'RevenueFromContractWithCustomerIncludingAssessedTax',
+        'Revenues'
+    ]
+
+    costl = [
+        'CostOfGoodsAndServicesSold',
+        'CostsAndExpenses',
+        'CostOfRevenue'
+    ]
+
+    gross_profitl = ['GrossProfit']
+    selling_general_and_administrative_expense = ['SellingGeneralAndAdministrativeExpense']
+    research_and_development = ['ResearchAndDevelopmentExpense']
+    sales_and_marketing = ['SellingAndMarketingExpense']
+    general_and_administrative = ['GeneralAndAdministrativeExpense']
+
+    operating_incomel = [
+        'OperatingIncomeLoss',
+        'IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest'
+    ]
+
+    net_incomel = [
+        'NetIncomeLoss',
+        'NetIncomeLossAvailableToCommonStockholdersBasic',
+        'ProfitLoss'
+    ]
+
+    current_assetl = ['AssetsCurrent']
+
+    accounts_receivable = [
+        'AccountsReceivableNetCurrent',
+        'ReceivablesNetCurrent',
+        'AccountsNotesAndLoansReceivableNetCurrent'
+    ]
+
+    assetl = ['Assets']
+    inventoryl = ['InventoryNet']
+    current_liabilitiesl = ['LiabilitiesCurrent']
+
+    accounts_payable = [
+        'AccountsPayableCurrent',
+        'AccountsPayableTradeCurrent',
+        'AccountsPayableAndAccruedLiabilitiesCurrent'
+    ]
+
+    long_term_debt = ['LongTermDebtNoncurrent']
+
+    stockholders_equityl = [
+        'StockholdersEquity',
+        'StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest'
+    ]
+
+    cf_operatingl = ['NetCashProvidedByUsedInOperatingActivities']
+    cf_investingl = ['NetCashProvidedByUsedInInvestingActivities']
+    cf_financingl = ['NetCashProvidedByUsedInFinancingActivities']
+
+    cash_endl = [
+        'CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents',
+        'CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsIncludingDisposalGroupAndDiscontinuedOperations',
+        'CashAndCashEquivalentsAtCarryingValue'
+    ]
+
+    depreciationamortizationl = [
+        'DepreciationDepletionAndAmortization',
+        'DepreciationAndAmortization',
+        'DepreciationAmortizationAndAccretionNet'
+    ]
+    depreciationl = ['Depreciation']
+    amortizationl = ['AmortizationOfIntangibleAssets']
+
+    preferred_stock_vpsl = ['PreferredStockParOrStatedValuePerShare']
+    preferred_stock_sharesl = ['PreferredStockSharesAuthorized']
+
+    label_list = [
+        revenuel, costl, gross_profitl, selling_general_and_administrative_expense,
+        research_and_development, sales_and_marketing, general_and_administrative,
+        operating_incomel, net_incomel, current_assetl, accounts_receivable, assetl,
+        inventoryl, current_liabilitiesl, accounts_payable, long_term_debt,
+        stockholders_equityl, cf_operatingl, cf_investingl, cf_financingl, cash_endl,
+        depreciationamortizationl, depreciationl, amortizationl, preferred_stock_vpsl,
+        preferred_stock_sharesl
+    ]
+
+    label = [
+        'revenue', 'cost', 'gross profit', 'selling general & administrative', 'research & development',
+        'sales & marketing', 'general & administrative', 'operating income', 'net income',
+        'current asset', 'accounts receivable', 'asset', 'inventory', 'current liabilities',
+        'accounts payable', 'long term debt', 'stockholders equity', 'operating cashflow',
+        'investing cashflow', 'financing cashflow', 'end cash', 'depreciation and amortization',
+        'depreciation', 'amortization', 'preferred stock value per share', 'preferred stock shares'
+    ]
